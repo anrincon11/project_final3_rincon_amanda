@@ -1,3 +1,18 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+.site-container {
+	max-width: 1200px;
+	margin: auto;
+}
+
 @font-face {
 	font-family: Futura;
 	src: url("../fonts/Futura.ttf");
@@ -9,17 +24,21 @@ body {
 	background-attachment: fixed;
 }
 
-h3 {
+h1 {
 	font-family: Futura;
 	font-size: 40px;
 	color: #004a80;
 	text-shadow: 1px 1px 1px #636363;
+	padding: 0;
+	margin: 0;
 }
 
-h4 {
+h2 {
 	font-family: Futura;
 	font-size: 30px;
 	color: #d62722;
+	padding: 0;
+	margin: 0;
 }
 
 p {
@@ -28,4 +47,113 @@ p {
 
 a {
 	text-decoration: none;
+}
+
+#wrapper {
+	width: 100%;
+	margin: auto;
+}
+
+/* HEADER */
+
+header {
+	margin: 0 auto;
+}
+
+/* LOGO */
+
+#logo {
+	max-width: 400px;
+	margin: auto;
+}
+
+#logo img {
+	width: 100%;
+	margin: 20px 0;
+}
+
+/* NAVIGATION */
+
+nav {
+	width: 100%;
+	margin: auto;
+	background-color: #004a80;
+	text-align: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav a {
+	display: block;
+	line-height: 50px;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+	text-transform: uppercase;
+	font-family: Futura;
+	color: #ffffff;
+	border: none;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: #dabd88;
+}
+
+/* HOME PAGE */
+
+#hero {
+	margin-bottom: 50px;
+}
+
+#about {
+	max-width: 1000px;
+	margin: auto;
+	margin-bottom: 30px;
+	background-color: #ffffff;
+	padding: 20px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius: 12px 12px 12px 12px;
+	-webkit-box-shadow: 2px 3px 4px 2px #a6a6a6;
+	box-shadow: 2px 3px 4px 2px #a6a6a6;
+}
+
+#happyhour,
+#giftcards,
+#contact {
+	max-width: 350px;
+	margin: auto;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	padding: 20px;
+	-webkit-border-radius: 12px 12px 12px 12px;
+	border-radius: 12px 12px 12px 12px;
+	-webkit-box-shadow: 2px 3px 4px 2px #a6a6a6;
+	box-shadow: 2px 3px 4px 2px #a6a6a6;
+}
+
+.snapshot {
+	margin: -20px;
+	padding: 0;
+}
+
+/* FOOTER */
+
+footer {
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 10px 0;
+	font-family: 'Lato', sans-serif;
+	background-color: #004a80;
+	clear: both;
+}
+
+footer p {
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
 }
