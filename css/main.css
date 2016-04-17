@@ -1,0 +1,31 @@
+@font-face {
+	font-family: Futura;
+	src: url("../fonts/Futura.ttf");
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	background-image: url("../img/parchment.png");
+	background-attachment: fixed;
+}
+
+h3 {
+	font-family: Futura;
+	font-size: 40px;
+	color: #004a80;
+	text-shadow: 1px 1px 1px #636363;
+}
+
+h4 {
+	font-family: Futura;
+	font-size: 30px;
+	color: #d62722;
+}
+
+p {
+	line-height: 23px;
+}
+
+a {
+	text-decoration: none;
+}
