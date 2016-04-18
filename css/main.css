@@ -41,6 +41,12 @@ h2 {
 	margin: 0;
 }
 
+h5 {
+	margin: 40px 0 0 0;
+	padding: 0;
+	color: #818181;
+}
+
 p {
 	line-height: 23px;
 }
@@ -132,7 +138,8 @@ nav a:hover {
 	}
 }
 
-#about {
+#about,
+#menu {
 	max-width: 1000px;
 	margin: auto;
 	margin-bottom: 30px;
@@ -193,6 +200,26 @@ nav a:hover {
 		width: 100%;
 	}
 }
+
+/* MENU PAGE */
+
+#menu {
+	margin-top: 30px;
+}
+
+#menu h1 {
+	text-align: center;
+}
+
+#menu article {
+	max-width: 900px;
+	margin: auto;
+}
+
+#menu p {
+	font-style: italic;
+}
+
 
 /* FOOTER */
 
