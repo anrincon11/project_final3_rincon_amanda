@@ -41,6 +41,7 @@ h2 {
 	margin: 0;
 }
 
+h3,
 h4 {
 	margin: 10px 0 0 0;
 	padding: 0;
@@ -171,16 +172,13 @@ nav a:hover {
 	overflow: hidden;
 }
 
-#links {
+.links a,
+.links a:visited {
 	color: #35a6f8;
 }
 
-#links a:hover {
+.links a:hover {
 	font-style: italic;
-}
-
-#links a:visited {
-	color: #35a6f8;
 }
 
 .snapshot {
@@ -245,8 +243,32 @@ nav a:hover {
 	}
 }
 
+/* HAPPY HOUR PAGE */
+
 #happyhour {
 	margin-top: 30px;
+}
+
+/* CONTACT PAGE */
+
+#contact {
+	margin-top: 30px;
+}
+
+#contact h3 {
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+#contact p {
+	margin: 3px 0;
+	text-align: left;
+}
+
+#la,
+#sd {
+	width: 85%;
+	margin: auto;
 }
 
 /* FOOTER */
