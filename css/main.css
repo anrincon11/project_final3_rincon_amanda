@@ -158,20 +158,16 @@ nav a:hover {
 	overflow: hidden;
 }
 
-@media (min-width: 300px) {
-	#type-styles {
-		text-align: center;
-		width: 85%;
-	}
-	#type-styles  h3 {
-		font-size: 30px;
-	}
-	#type-styles  h4 {
-		font-size: 25px;
-	}
-	#type-styles  p {
-		font-size: 15px;
-	}
+#links {
+	color: #35a6f8;
+}
+
+#links a:hover {
+	font-style: italic;
+}
+
+#links a:visited {
+	color: #35a6f8;
 }
 
 .snapshot {
