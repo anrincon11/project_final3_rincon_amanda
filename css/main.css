@@ -54,6 +54,12 @@ a {
 	margin: auto;
 }
 
+@media (min-width: 300px) {
+	#wrapper {
+		background-image: none;
+	}
+}
+
 /* HEADER */
 
 header {
@@ -70,6 +76,12 @@ header {
 #logo img {
 	width: 100%;
 	margin: 20px 0;
+}
+
+@media (min-width: 300px) {
+	#logo {
+		width: 50%;
+	}
 }
 
 /* NAVIGATION */
@@ -110,6 +122,16 @@ nav a:hover {
 	margin-bottom: 50px;
 }
 
+#hero img {
+	width: 100%;
+}
+
+@media (min-width: 300px) {
+	#hero {
+		width: 100%;
+	}
+}
+
 #about {
 	max-width: 1000px;
 	margin: auto;
@@ -129,18 +151,51 @@ nav a:hover {
 	margin: auto;
 	margin-bottom: 20px;
 	background-color: #ffffff;
-	padding: 20px;
 	-webkit-border-radius: 12px 12px 12px 12px;
 	border-radius: 12px 12px 12px 12px;
 	-webkit-box-shadow: 2px 3px 4px 2px #a6a6a6;
 	box-shadow: 2px 3px 4px 2px #a6a6a6;
+	overflow: hidden;
+}
+
+@media (min-width: 300px) {
+	#type-styles {
+		text-align: center;
+		width: 85%;
+	}
+	#type-styles  h3 {
+		font-size: 30px;
+	}
+	#type-styles  h4 {
+		font-size: 25px;
+	}
+	#type-styles  p {
+		font-size: 15px;
+	}
 }
 
 .snapshot {
-	margin: -20px;
+	margin: 0;
 	padding: 0;
 	-webkit-border-radius: 12px 12px 0 0;
 	border-radius: 12px 12px 0 0;
+}
+
+.snapshot img {
+	width: 100%;
+}
+
+@media (min-width: 300px) {
+	#about,
+	#happyhour,
+	#giftcards,
+	#contact {
+		text-align: center;
+		width: 85%;
+	}
+	.snapshot {
+		width: 100%;
+	}
 }
 
 /* FOOTER */
