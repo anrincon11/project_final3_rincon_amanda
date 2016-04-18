@@ -278,6 +278,40 @@ nav a:hover {
 	}
 }
 
+/* GIFT CARDS PAGE */
+
+#giftcards {
+	margin-top: 30px;
+}
+
+.click {
+	display: block;
+	width: 100px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #004a80;
+	-webkit-box-shadow: 1px 1px 1px 1px #a6a6a6;
+	box-shadow: 1px 1px 1px 1px #a6a6a6;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.click:hover {
+	background-color: #a61f1b;
+}
+
+.click a {
+	color: #ffffff;
+}
+
+.click a:visited {
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+}
+
 /* FOOTER */
 
 footer {
