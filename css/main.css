@@ -209,6 +209,11 @@ nav a:hover {
 
 #menu h1 {
 	text-align: center;
+	margin-top: 30px;
+}
+
+#menu h5 {
+	margin-bottom: 7px;
 }
 
 #menu article {
@@ -218,6 +223,20 @@ nav a:hover {
 
 #menu p {
 	font-style: italic;
+	margin: 0;
+}
+
+@media (min-width: 300px) {
+	#menu {
+		width: 85%;
+	}
+	#menu h5 {
+		font-size: 14px;
+	}
+	#menu p {
+		font-size: 12px;
+		line-height: 17px;
+	}
 }
 
 
