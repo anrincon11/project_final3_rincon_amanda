@@ -510,6 +510,23 @@ nav a:hover {
 	}
 }
 
+@media (min-width: 900px) {
+	#giftcards p {
+		text-align: left;
+	}
+	#online,
+	#traditional {
+		width: 48%;
+	}
+	#online {
+		float: left;
+	}
+	#traditional {
+		float: right;
+		clear: right;
+	}
+}
+
 /* FOOTER */
 
 footer {
