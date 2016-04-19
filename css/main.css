@@ -291,6 +291,10 @@ nav a:hover {
 	#sd {
 		font-size: 14px;
 	}
+	#la p,
+	#sd p {
+		text-align: center;
+	}
 }
 
 /* GIFT CARDS PAGE */
