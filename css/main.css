@@ -73,6 +73,14 @@ a {
 	}
 }
 
+@media (min-width: 700px) {
+	#wrapper {
+		background-image: url("../img/eiffel_tower.png");
+		background-repeat: no-repeat;
+		background-position: bottom right;
+	}
+}
+
 /* HEADER */
 
 header {
@@ -415,8 +423,11 @@ nav a:hover {
 }
 
 @media (min-width: 600px) {
+	#giftcards h3 {
+		font-size: 23px;
+	}
 	#giftcards p {
-		font-size: 17px;
+		font-size: 16px;
 	}
 }
 
