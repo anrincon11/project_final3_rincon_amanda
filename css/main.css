@@ -330,10 +330,6 @@ nav a:hover {
 	#menu h5 {
 		font-size: 14px;
 	}
-	#menu p {
-		font-size: 12px;
-		line-height: 17px;
-	}
 	.chefs-choice {
 		width: 15%;
 		float: right;
@@ -350,10 +346,6 @@ nav a:hover {
 	#menu h5 {
 		font-size: 16px;
 	}
-	#menu p {
-		font-size: 14px;
-		line-height: 20px;
-	}
 	.chefs-choice {
 		width: 9%;
 		float: right;
@@ -366,6 +358,26 @@ nav a:hover {
 	}
 	#remy {
 		width: 9%;
+		float: left;
+		margin-top: 30px;
+	}
+}
+
+@media (min-width: 900px) {
+	#menu h5 {
+		font-size: 18px;
+	}
+	.chefs-choice {
+		width: 6%;
+		float: right;
+		padding-top: 0;
+		margin-right: 50px;
+	}
+	#two {
+		margin-right: 200px;
+	}
+	#remy {
+		width: 6%;
 		float: left;
 		margin-top: 30px;
 	}
