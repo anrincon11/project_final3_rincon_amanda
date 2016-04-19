@@ -458,13 +458,25 @@ nav a:hover {
 		width: 60%;
 		margin: auto;
 	}
-	#la {
-		width: 50%;
-		float: left;
-	}
-	#contact h3,
-	#contact p {
+	#locations h3,
+	#locations p {
 		text-align: left;
+	}
+	#locations p {
+		font-size: 21px;
+		line-height: 30px;
+	}
+	#la,
+	#sd {
+		width: 50%;
+	}
+	#la {
+		float: left;
+		margin-right: -30px;
+		margin-top: -35px;
+	}
+	#sd {
+		margin-right: -50px;
 	}
 }
 
