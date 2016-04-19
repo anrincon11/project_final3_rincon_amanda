@@ -280,6 +280,31 @@ nav a:hover {
 	}
 }
 
+@media (min-width: 600px) {
+	#menu h5 {
+		font-size: 16px;
+	}
+	#menu p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.chefs-choice {
+		width: 9%;
+		float: right;
+		padding-top: 7px;
+	}
+	#two,
+	#three,
+	#four {
+		margin-top: 40px;
+	}
+	#remy {
+		width: 9%;
+		float: left;
+		margin-top: 30px;
+	}
+}
+
 /* HAPPY HOUR PAGE */
 
 #happyhour {
