@@ -453,6 +453,21 @@ nav a:hover {
 	}
 }
 
+@media (min-width: 900px) {
+	#locations {
+		width: 60%;
+		margin: auto;
+	}
+	#la {
+		width: 50%;
+		float: left;
+	}
+	#contact h3,
+	#contact p {
+		text-align: left;
+	}
+}
+
 /* GIFT CARDS PAGE */
 
 #giftcards {
