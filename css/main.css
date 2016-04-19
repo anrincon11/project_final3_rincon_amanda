@@ -414,6 +414,12 @@ nav a:hover {
 	}
 }
 
+@media (min-width: 600px) {
+	#giftcards p {
+		font-size: 17px;
+	}
+}
+
 /* FOOTER */
 
 footer {
