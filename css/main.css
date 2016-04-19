@@ -234,6 +234,29 @@ nav a:hover {
 	margin: 0;
 }
 
+.chefs-choice img,
+#remy img {
+	width: 100%;
+}
+
+#one {
+	margin-top: 40px;
+}
+
+#two {
+	margin-top: 20px;
+}
+
+#three,
+#four {
+	margin-top: 30px;
+}
+
+.footnote {
+	clear: right;
+	padding-top: 80px;
+}
+
 @media (min-width: 300px) {
 	#menu {
 		width: 85%;
@@ -244,6 +267,16 @@ nav a:hover {
 	#menu p {
 		font-size: 12px;
 		line-height: 17px;
+	}
+	.chefs-choice {
+		width: 15%;
+		float: right;
+		padding-top: 20px;
+	}
+	#remy {
+		width: 15%;
+		float: left;
+		margin-top: 30px;
 	}
 }
 
