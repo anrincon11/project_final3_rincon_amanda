@@ -62,9 +62,28 @@ a {
 	text-decoration: none;
 }
 
-#wrapper {
-	width: 100%;
-	margin: auto;
+@media (min-width: 300px) {
+	h2 {
+		font-size: 25px;
+	}
+	h3 {
+		font-size: 25px;
+	}
+	p {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 600px) {
+	h2 {
+		font-size: 30px;
+	}
+	h3 {
+		font-size: 30px;
+	}
+	p {
+		font-size: 17px;
+	}
 }
 
 @media (min-width: 300px) {
@@ -147,6 +166,14 @@ nav a:hover {
 	color: #dabd88;
 }
 
+@media (min-width: 600px) {
+	nav li {
+		width: 20%;
+		display: inline-block;
+	}
+}
+
+
 /* HOME PAGE */
 
 #hero {
@@ -160,13 +187,6 @@ nav a:hover {
 @media (min-width: 300px) {
 	#hero {
 		width: 100%;
-	}
-}
-
-@media (min-width: 600px) {
-	nav li {
-		width: 20%;
-		display: inline-block;
 	}
 }
 
@@ -436,12 +456,7 @@ nav a:hover {
 }
 
 @media (min-width: 600px) {
-	#giftcards h3 {
-		font-size: 23px;
-	}
-	#giftcards p {
-		font-size: 16px;
-	}
+
 }
 
 /* FOOTER */
