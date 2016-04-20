@@ -452,12 +452,18 @@ nav a:hover {
 		margin-bottom: 20px;
 	}
 	#social {
-		width: 80%;
+		width: 85%;
 		margin: auto;
 	}
 	#social img {
 		width: 18%;
 		margin: 5px;
+	}
+}
+
+@media (min-width: 500px) {
+	#social {
+		width: 45%;
 	}
 }
 
@@ -467,8 +473,19 @@ nav a:hover {
 		font-size: 16px;
 	}
 	#social {
-		width: 60%;
-		margin: auto;
+		width: 55%;
+	}
+}
+
+@media (min-width: 700px) {
+	#social {
+		width: 45%;
+	}
+}
+
+@media (min-width: 1000px) {
+	#social {
+		width: 30%;
 	}
 }
 
