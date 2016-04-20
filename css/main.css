@@ -435,6 +435,11 @@ nav a:hover {
 	margin: auto;
 }
 
+#reservations p {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
 @media (min-width: 300px) {
 	#contact {
 		text-align: center;
@@ -451,7 +456,8 @@ nav a:hover {
 	#sd {
 		margin-bottom: 20px;
 	}
-	#social {
+	#social,
+	#reservations {
 		width: 85%;
 		margin: auto;
 	}
