@@ -440,6 +440,10 @@ nav a:hover {
 	margin-bottom: 30px;
 }
 
+#front img {
+	width: 100%;
+}
+
 @media (min-width: 300px) {
 	#contact {
 		text-align: center;
@@ -464,6 +468,11 @@ nav a:hover {
 	#social img {
 		width: 18%;
 		margin: 5px;
+	}
+	#front {
+		width: 85%;
+		margin: auto;
+		margin-top: 20px;
 	}
 }
 
