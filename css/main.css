@@ -496,6 +496,10 @@ nav a:hover {
 	#social {
 		width: 45%;
 	}
+
+	#front {
+		width: 60%;
+	}
 }
 
 @media (min-width: 1000px) {
