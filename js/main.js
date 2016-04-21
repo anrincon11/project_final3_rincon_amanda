@@ -27,25 +27,25 @@ jQuery( document ).ready( function() {
 // custom javascript code //
 
 //button for egift cards//
-var button = document.getElementById( 'button1' );
+var button = document.getElementById( 'button1' );//create variable for first button
 
-button.addEventListener( 'click', function( event ) {
-	event.preventDefault();
+button.addEventListener( 'click', function( event ) {//listen for a click on the variable
+	event.preventDefault();//prevent default action when clicked
 
-	var myElement = document.createElement( 'p' );
+	var myElement = document.createElement( 'p' );//create a paragraph element
 
-	myElement.innerHTML = '<p>Thank you for your purchase!</p>';
-	document.getElementsByClassName( 'balance1' )[ 0 ].appendChild( myElement );
+	myElement.innerHTML = '<p>Thank you for your purchase!</p>';//add thank you paragraph
+	document.getElementsByClassName( 'balance1' )[ 0 ].appendChild( myElement );//add above button
 } );
 
 //button for traditional gift cards//
-var button = document.getElementById( 'button2' );
+var button = document.getElementById( 'button2' );//create variable for first button
 
-button.addEventListener( 'click', function( event ) {
-	event.preventDefault();
+button.addEventListener( 'click', function( event ) {//listen for a click on the variable
+	event.preventDefault();//prevent default action when clicked
 
-	var myElement = document.createElement( 'p' );
+	var myElement = document.createElement( 'p' );//create a paragraph element
 
-	myElement.innerHTML = '<p>Thank you for your purchase!</p>';
-	document.getElementsByClassName( 'balance2' )[ 0 ].appendChild( myElement );
+	myElement.innerHTML = '<p>Thank you for your purchase!</p>';//add thank you paragraph
+	document.getElementsByClassName( 'balance2' )[ 0 ].appendChild( myElement );//add above button
 } );
