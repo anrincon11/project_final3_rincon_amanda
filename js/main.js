@@ -6,6 +6,22 @@ jQuery( document ).ready( function() {
 	// textilate plugin //
 	$( '.tlt' ).textillate();
 
+	// custom jquery code //
+	$( '#fb' ).click( function() { //listen for click on facebook icon
+		$( '#fb' ).addClass( 'animated flip' ); //add animated class with flip animation
+	} );
+
+	$( '#tweet' ).click( function() { //listen for click on twitter icon
+		$( '#tweet' ).addClass( 'animated flip' ); //add animated class with flip animation
+	} );
+
+	$( '#insta' ).click( function() { //listen for click on instagram icon
+		$( '#insta' ).addClass( 'animated flip' ); //oadd animated class with flip animation
+	} );
+
+	$( '#yp' ).click( function() { //listen for click on yelp icon
+		$( '#yp' ).addClass( 'animated flip' ); //add animated class with flip animation
+	} );
 } );
 
 // custom javascript code //
