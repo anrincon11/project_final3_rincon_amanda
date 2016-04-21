@@ -187,7 +187,6 @@ nav a:hover {
 	}
 }
 
-
 /* HOME PAGE */
 
 #hero {
@@ -271,7 +270,7 @@ nav a:hover {
 	.grid {
 		width: calc(100% / 3.25);
 		float: left;
-		margin: 0 16px;
+		margin: 0 13px;
 		margin-bottom: 50px;
 	}
 	.grid h2 {
