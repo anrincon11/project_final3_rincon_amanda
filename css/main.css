@@ -496,15 +496,8 @@ nav a:hover {
 	#social {
 		width: 45%;
 	}
-
 	#front {
 		width: 60%;
-	}
-}
-
-@media (min-width: 1000px) {
-	#social {
-		width: 30%;
 	}
 }
 
@@ -532,6 +525,15 @@ nav a:hover {
 	}
 	#sd {
 		margin-right: -50px;
+	}
+	#front {
+		width: 40%;
+	}
+}
+
+@media (min-width: 1000px) {
+	#social {
+		width: 30%;
 	}
 }
 
