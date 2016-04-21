@@ -27,9 +27,9 @@ jQuery( document ).ready( function() {
 // custom javascript code //
 
 //button for egift cards//
-var button = document.getElementById( 'button1' );//create variable for first button
+var purchase1 = document.getElementById( 'button1' );//create variable for first button
 
-button.addEventListener( 'click', function( event ) {//listen for a click on the variable
+purchase1.addEventListener( 'click', function( event ) {//listen for a click on the variable
 	event.preventDefault();//prevent default action when clicked
 
 	var myElement = document.createElement( 'p' );//create a paragraph element
@@ -39,9 +39,9 @@ button.addEventListener( 'click', function( event ) {//listen for a click on the
 } );
 
 //button for traditional gift cards//
-var button = document.getElementById( 'button2' );//create variable for first button
+var purchase2 = document.getElementById( 'button2' );//create variable for first button
 
-button.addEventListener( 'click', function( event ) {//listen for a click on the variable
+purchase2.addEventListener( 'click', function( event ) {//listen for a click on the variable
 	event.preventDefault();//prevent default action when clicked
 
 	var myElement = document.createElement( 'p' );//create a paragraph element
